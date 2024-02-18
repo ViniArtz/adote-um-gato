@@ -1,0 +1,272 @@
+body {
+    background-color: rgb(5, 94, 153);
+    background-repeat: fixed;
+    max-width: 1900px;
+}
+
+.cabecalho {
+    background-color: #00002b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo img {
+    height: 150px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.cabecalho nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho nav li a {
+    display: flex;
+    font-weight: 900;
+    color: var(--cor-h-padrao--);
+    font-size: 25px;
+    margin: 40px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    color: #fff;
+    background-color: blue;
+}
+
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 132px);
+    padding: 0 30px 30px;
+}
+
+
+
+hr {
+    align-self: center;
+    border: 2px solid rgb(7, 222, 255);
+    width: 1900px;
+}
+
+.inicio-site {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.descricao-site {
+    width: 950px;
+    color: #fff;
+    font-size: 21px;
+    text-align: justify;
+    font-weight: 500;
+    margin: 6px 40px;
+
+}
+
+.foto-gato-desc {
+    width: 950px;
+    margin: 4px 40px;
+}
+
+.desc-menor {
+    color: #fff;
+    width: 950px;
+    font-size: 14px;
+    text-align: justify;
+    margin: 6px 40px;
+}
+
+.motivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6px 40px;
+    padding: 20px;
+}
+
+.motivos h2 {
+    color: var(--cor-h-padrao--);
+    font-size: 36px;
+}
+
+.motivos ul {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.motivos li {
+    padding: 20px;
+}
+
+.taylor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.taylor h2 {
+    color: var(--cor-h-padrao--);
+    font-size: 36px;
+}
+
+.taylor img {
+    max-width: 950px;
+}
+
+.taylor .desc-taylor {
+    color: #fff;
+    max-width: 700px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.taylor ul {
+    color: var(--cor-h-padrao--);
+    display: flex;
+    justify-content: space-between;
+}
+
+.taylor li {
+    padding: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.taylor a {
+    display: flex;
+    font-weight: 900;
+    color: white;
+    background-color:  #00002b;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.taylor a:hover {
+    color: #fff;
+    background-color: var(--cor-h-padrao--);
+}
+
+.jonelson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.jonelson h2 {
+    color: var(--cor-h-padrao--);
+    font-size: 36px;
+}
+
+.jonelson img {
+    max-width: 950px;
+}
+
+.jonelson .desc-jonelson {
+    color: #fff;
+    max-width: 950px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.jonelson ul {
+    color: var(--cor-h-padrao--);
+    display: flex;
+    justify-content: space-between;
+}
+
+.jonelson li {
+    padding: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.jonelson a {
+    display: flex;
+    font-weight: 900;
+    color: white;
+    background-color:  #00002b;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.jonelson a:hover {
+    color: #fff;
+    background-color: var(--cor-h-padrao--);
+}
+
+.jailton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.jailton h2 {
+    color: var(--cor-h-padrao--);
+    font-size: 36px;
+}
+
+.jailton img {
+    max-width: 950px;
+}
+
+.jailton .desc-jailton {
+    color: #fff;
+    max-width: 950px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify;
+}
+
+.jailton ul {
+    color: var(--cor-h-padrao--);
+    display: flex;
+    justify-content: space-between;
+}
+
+.jailton li {
+    padding: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.jailton a {
+    display: flex;
+    font-weight: 900;
+    color: white;
+    background-color:  #00002b;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.jailton a:hover {
+    color: #fff;
+    background-color: var(--cor-h-padrao--);
+}
