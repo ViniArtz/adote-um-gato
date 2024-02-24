@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
 body {
     background-color: rgb(5, 94, 153);
     background-repeat: fixed;
@@ -79,6 +84,7 @@ hr {
 
 }
 
+
 .foto-gato-desc {
     width: 950px;
     margin: 4px 40px;
@@ -128,7 +134,7 @@ hr {
 }
 
 .taylor img {
-    max-width: 950px;
+    width: 950px;
 }
 
 .taylor .desc-taylor {
@@ -180,7 +186,7 @@ hr {
 }
 
 .jonelson img {
-    max-width: 950px;
+    width: 950px;
 }
 
 .jonelson .desc-jonelson {
@@ -232,7 +238,7 @@ hr {
 }
 
 .jailton img {
-    max-width: 950px;
+    width: 950px;
 }
 
 .jailton .desc-jailton {
@@ -267,6 +273,64 @@ hr {
 }
 
 .jailton a:hover {
+    color: #fff;
+    background-color: var(--cor-h-padrao--);
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.contato h2 {
+    color: var(--cor-h-padrao--);
+    font-size: 36px;
+}
+
+.contato p {
+    width: 450px;
+    color: #fff;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-h-padrao--);
+    font-weight: 600;
+}
+
+.formulario #form {
+    padding: 10px;
+    width: 450px;
+    background-color: antiquewhite;
+    border-color: var(--cor-h-padrao--);
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.formulario textarea {
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+.formulario .submit {
+    font-weight: 900;
+    color: white;
+    background-color:  #00002b;
+    border-color: var(--cor-h-padrao--);
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.formulario .submit:hover {
     color: #fff;
     background-color: var(--cor-h-padrao--);
 }
