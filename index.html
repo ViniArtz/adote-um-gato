@@ -116,27 +116,32 @@
 
         <hr>
 
-        <div class="contato" id="contato">
+       <div class="contato" id="contato">
             <h2>Contato</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum facere dolore id natus nihil in voluptate
                 quod, ex temporibus magnam perspiciatis omnis quae tenetur inventore, at dolorem quibusdam esse
                 corrupti?</p>
             <form class="formulario" action="#">
                 <label for="name">Nome:</label>
-                <br>
-                <input type="text">
-                <br>
-                <label for="contact">Sobrenome:</label>
-                <br>
-                <input type="text">
-                <br>
+                
+                <input type="text" name="name" id="form">
+                
+                <label for="email">E-mail</label>
+                
+                <input type="email" name="email" id="form">
+                
+                <label for="date">Data de nascimento</label>
+                
+                <input type="date" name="date" id="form">
+                
                 <label for="mensagem">Digite sua mensagem:</label>
+                
+                <textarea name="mensagem" id="form" cols="30"
+                    rows="10">Mensagem: ex: Lorem ipsum dolor </textarea>
                 <br>
-                <textarea name="mensagem" id="" cols="30"
-                    rows="10">Mensagem: ex: Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo modi sed? Minus ratione distinctio molestias laboriosam mollitia tempora aliquid molestiae vitae, soluta sint porro totam temporibus doloribus modi veritatis.</textarea>
-                <br>
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" class="submit">
             </form>
+            <br>
         </div>
 
     </main>
